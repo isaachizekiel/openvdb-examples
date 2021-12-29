@@ -11,7 +11,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 add_subdirectory(third_party/openvdb)
 
 # 
-add_executable(openvdb-examples src/main.cc)
+add_executable(openvdb-examples src/HelloWorld.cc)
 
 #
 target_link_libraries(openvdb-examples openvdb_static)
