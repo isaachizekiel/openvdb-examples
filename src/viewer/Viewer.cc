@@ -954,6 +954,14 @@ ViewerImpl::keyCallback(int key, int action)
         case 'g': case 'G': // center geometry
             mCamera->lookAtTarget();
             break;
+	case 'w': case 'W':
+            break;
+	case 'a': case 'A':
+            break;
+	case 's': case 'S':
+	  break;
+	case 'd': case 'D':
+            break;	    
         case 'i': case 'I':
             toggleInfoText();
             break;

@@ -1451,6 +1451,7 @@ VoxelModule::VoxelModule(const openvdb::GridBase::ConstPtr& grid)
     , mIsInitialized(false)
     , mDrawingPointGrid(false)
 {
+	
     mFlatShader.setVertShader(
         "#version 120\n"
         "void main() {\n"
